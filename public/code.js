@@ -48,6 +48,7 @@
   socket.on("chat", function (message) {
     renderMessage("other", message);
   });
+  
 
   function renderMessage(type, message) {
     let messageContainer = app.querySelector(".chat-screen .messages");
